@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4cf984c3.chunk.css",
+    "main.js": "/static/js/main.88f15730.chunk.js",
+    "main.js.map": "/static/js/main.88f15730.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a634d056.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a634d056.js.map",
+    "static/js/2.4c1965e1.chunk.js": "/static/js/2.4c1965e1.chunk.js",
+    "static/js/2.4c1965e1.chunk.js.map": "/static/js/2.4c1965e1.chunk.js.map",
+    "static/css/3.277e84ca.chunk.css": "/static/css/3.277e84ca.chunk.css",
+    "static/js/3.c1c483c0.chunk.js": "/static/js/3.c1c483c0.chunk.js",
+    "static/js/3.c1c483c0.chunk.js.map": "/static/js/3.c1c483c0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/3.277e84ca.chunk.css.map": "/static/css/3.277e84ca.chunk.css.map",
+    "static/css/main.4cf984c3.chunk.css.map": "/static/css/main.4cf984c3.chunk.css.map",
+    "static/js/2.4c1965e1.chunk.js.LICENSE.txt": "/static/js/2.4c1965e1.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/bg-pattern-top.dae77b1f.svg",
+    "static/media/ProfileCard.css": "/static/media/bg-pattern-card.b61daebd.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a634d056.js",
+    "static/js/2.4c1965e1.chunk.js",
+    "static/css/main.4cf984c3.chunk.css",
+    "static/js/main.88f15730.chunk.js"
+  ]
+}
