@@ -2,22 +2,22 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+          {/* <header className="App-header"> */}
+          {/* <img src={logo} className="App-logo" alt="logo" /> */}
+          {/* </header> */}
+          <div className="cardWrapper">Victor Crest 26 London 80K Followers 803K Likes 1.4K Photos</div>
+          <div className="attribution">
+              Challenge by
+              <a
+                  href="https://www.frontendmentor.io?ref=challenge"
+                  target="_blank"
+              >
+                   Frontend Mentor
+              </a>
+              . Coded by <a href="https://evelynstender.com">Evelyn Stender</a>.
+          </div>
+      </div>
   );
 }
 
