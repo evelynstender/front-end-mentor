@@ -23,6 +23,7 @@ function ProfileCard() {
                         <img
                             className="profileImg"
                             src={ProfilePicture}
+                            alt=""
                         ></img>
                     </LazyLoad>
                     <div className="userName">
