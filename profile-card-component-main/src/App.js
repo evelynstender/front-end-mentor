@@ -1,27 +1,31 @@
-import './App.css';
+import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
+import React, { lazy, Suspense } from "react";
+import "./App.css";
+
+// import React, { lazy, Suspense } from "react";
+// const AvatarComponent = lazy(() => import("./AvatarComponent"));
 
 function App() {
-  return (
-      <div className="App">
-          {/* <header className="App-header"> */}
-          {/* <img src={logo} className="App-logo" alt="logo" /> */}
-          {/* </header> */}
-          <div className="cardWrapper">
-              Victor Crest 26 London 80K Followers 803K Likes 1.4K Photos
-          </div>
-          <div className="attribution">
-              Challenge by
-              <a
-                  href="https://www.frontendmentor.io?ref=challenge"
-                  target="_blank"
-                  rel="noreferrer"
-              >
-                  Frontend Mentor
-              </a>
-              . Coded by <a href="https://evelynstender.com">Evelyn Stender</a>.
-          </div>
-      </div>
-  );
+    const ProfileCard = lazy(() => import("./components/ProfileCard"));
+
+    const renderLoader = () => <div></div>;
+
+    return <div className="App">
+        <Suspense fallback={renderLoader()}>
+            <BrowserRouter>
+                <Switch>
+                    <Route
+                        path="/profile-card-component"
+                        component={ProfileCard}
+                    />
+                    <Route path="/">
+                        <Redirect to="/profile-card-component" />
+                    </Route>
+                </Switch>
+            </BrowserRouter>
+            ;
+        </Suspense>
+    </div>;
 }
 
 export default App;

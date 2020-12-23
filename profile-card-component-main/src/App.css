@@ -1,31 +1,10 @@
 .App {
     min-height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     font-size: 18px;
     background-color: hsl(185, 75%, 39%);
-    background-image: url("./images/bg-pattern-bottom.svg")/*, url("./images/bg-pattern-bottom.svg")*/;
+    background-image: url("./images/bg-pattern-top.svg"),
+        url("./images/bg-pattern-bottom.svg");
     background-repeat: no-repeat;
-    background-position: 0 0;
-    /* background-attachment: fixed; */
-    /* background-size: 20%; */
-
-}
-
-/* .App::before {
-    background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
-    background-repeat: no-repeat;
-} */
-
-.cardWrapper {
-    margin: auto;
-}
-
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-.attribution a {
-    color: hsl(228, 45%, 44%);
+    background-position: right calc(50vw + 15%) bottom calc(50vh - 10vw),
+        left calc(40vw + 25%) top calc(70vh - 10vw);
 }

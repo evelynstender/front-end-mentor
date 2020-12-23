@@ -1,12 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { Route, BrowserRouter as Router } from "react-router-dom";
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
 
-
-const routing = (
-    <Router>
-            <Route path="/profile-card-component" component={App} />
-    </Router>
+const app = (
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>
 );
-ReactDOM.render(routing, document.getElementById("root"));
+ReactDOM.render(app, document.getElementById("root"));

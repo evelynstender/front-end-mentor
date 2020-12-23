@@ -1,0 +1,93 @@
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardWrapper {
+    height: 375px;
+    width: 350px;
+    margin: auto 0;
+    border: 1px solid hsl(185, 75%, 39%);
+    border-radius: 14px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+
+.cardHeader {
+    height: 140px;
+    background-image: url("../../images/bg-pattern-card.svg");
+    border-radius: 12px 12px 0 0;
+}
+
+.cardBody {
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profileImg {
+    border-radius: 100%;
+    border: 5px solid white;
+    margin-top: -50px;
+}
+
+.userName {
+    margin-top: 20px;
+}
+
+.userCity {
+    margin-top: 10px;
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.age {
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.cardBottom {
+    border-top: 1px solid hsl(0, 0%, 90%);
+    justify-self: flex-end;
+    height: 95px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+    align-items: center;
+}
+
+.statsTitle {
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: hsl(0, 0%, 59%);
+    margin-top: 5px;
+}
+
+.attribution {
+    font-size: 11px;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 375px) {
+    .cardWrapper {
+        width: 325px;
+    }
+}
